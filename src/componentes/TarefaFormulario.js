@@ -27,8 +27,8 @@ function TarefaFormulario(props) {
       onSubmit={manejarEnvio}>
       <input
         className='tarefa-input'
-        type="texto"
-        placeholder="Escreve uma Tarefa"
+        type="text"
+        placeholder="Escreva uma Tarefa"
         name="texto"
         onChange={manejarCambio}/>
         <button className="tarefa-botão">Adicionar Tarefa</button>
